@@ -5,15 +5,42 @@
     box-sizing: border-box;
 }
 
-/*---------------------------------------------*/
+/*---------------HEADER-----------------------*/
 header{
     font-family: "Poppins", sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-style: normal;
+    height: 10vh;
+    background-color: #c6f0f5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
+header nav{
+    width: 60%;
+}
+nav ul{
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+header nav ul a{
+    text-decoration: none;
+    color: #0e9bb4;
+    transition: 0.5s;
+}
+header nav ul a:hover{
+    text-decoration: none;
+    color: #20525b;
+    transition: 1s;
+}
+
+/*---------------SECTION-----------------------*/
 section{
     font-family: "Poppins", sans-serif;
     font-weight: 200;
     font-style: normal;
+
 }
