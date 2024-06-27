@@ -36,6 +36,9 @@ header nav ul a:hover{
     color: #20525b;
     transition: 1s;
 }
+header div{
+    text-align: center;
+}
 
 /*---------------SECTION-----------------------*/
 section{
