@@ -62,4 +62,12 @@ section p{
 section h1{
     font-size: 100px;
     letter-spacing: 30px;
+    margin: 20px;
+}
+section button{
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: #000000;
+    color: whitesmoke;
 }
