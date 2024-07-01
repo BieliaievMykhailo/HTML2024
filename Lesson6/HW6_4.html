@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            justify-content: center;
+            color: white;
+            font-family: Inter;
+            font-size: 45px;
+            font-weight: 400;
+        }
+
+        header {
+            height: 20vh;
+            display: flex;
+            background-color: #8D8484;
+            align-items: center;
+            color: black;
+        }
+
+        section {
+            height: 60vh;
+            display: flex;
+            background-color: #A4A4A4;
+        }
+
+        footer {
+            height: 20vh;
+            display: flex;
+            background-color: #BDBDBD;
+            justify-content: center;
+            align-items: center;
+            color: black;
+        }
+
+        .block_cont {
+            display: flex;
+            justify-items: flex-start;
+            flex-direction: column;
+            width: 70%;
+        }
+
+        .cont {
+            height: 20vh;
+            text-align: center;
+            align-content: center;
+        }
+
+        .block_spam {
+            display: flex;
+            justify-items: flex-end;
+            flex-direction: column;
+            width: 30%;
+        }
+
+        .spam {
+            height: 30vh;
+            text-align: center;
+            align-content: center;
+        }
+    </style>
+</head>
+<body>
+<header>Header</header>
+
+<section>
+    <div class="block_cont">
+        <div class="cont" style="background-color: #776969;">Content - 1</div>
+        <div class="cont" style="background-color: #643030;">Content - 2</div>
+        <div class="cont" style="background-color: #441818;">Content - 3</div>
+    </div>
+    <div class="block_spam">
+        <div class="spam" style="background-color: #937575;">spam -1</div>
+        <div class="spam" style="background-color: #644C4C;">spam -2</div>
+    </div>
+</section>
+
+<footer>footer</footer>
+
+</body>
+</html>
