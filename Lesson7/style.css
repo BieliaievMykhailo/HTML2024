@@ -81,7 +81,7 @@
     line-height: normal;
 }
 
-.bottom-section{
+.bottom-section {
     height: 100vh;
     background-image: url(img/bgc1przr.png);
     background-size: cover;
@@ -89,22 +89,26 @@
     justify-content: space-evenly;
     align-items: center;
 }
-.bottom-section div{
+
+.bottom-section div {
     margin: 157px 0;
     width: 453.6px;
     height: 700px;
-    background-color:rgba(83, 83, 83, 0.40);
+    background-color: rgba(83, 83, 83, 0.40);
     display: flex;
 
     align-items: center;
     flex-direction: column;
-   }
-.bottom-section div img{
+}
+
+.bottom-section div img {
     margin-top: 25px;
     width: 408.6px;
     height: 214px;
 }
-.bottom-section div button{
+
+.bottom-section div button {
+    margin-top: 25px;
     width: 409px;
     height: 76px;
     border-radius: 5px;
@@ -113,15 +117,18 @@
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
     font-size: 30px;
 }
-.bottom-section div h2{
+
+.bottom-section div h2 {
     font-size: 35px;
     margin-top: 32px;
 }
-.bottom-section div p{
+
+.bottom-section div p {
     font-size: 35px;
     margin-top: 24px;
 }
-.bottom-section div .price{
+
+.bottom-section div .price {
     font-size: 35px;
     margin-top: 62px;
 }
