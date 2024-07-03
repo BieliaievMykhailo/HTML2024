@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top-section {
+    height: 100vh;
+    background-image: url(img/bgc1.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lorem {
+    width: 1058.4px;
+    height: 392.8px;
+    background: #FAF9F7;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    display: flex;
+}
+
+.lorem div {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 44px;
+    font-family: "KoHo", sans-serif;
+}
+
+.lorem div h2 {
+    color: #000;
+    font-size: 45px;
+    font-weight: 400;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.lorem div p {
+    color: #000;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.lorem button {
+    width: 409px;
+    height: 76px;
+    border-radius: 5px;
+    border: 1px solid rgba(156, 152, 152, 0.10);
+    background: rgba(217, 217, 217, 0.60);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    font-size: 30px;
+}
+
+.middle-section {
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(img/bgc1przr.png);
+}
+
+.middle-section iframe {
+    margin: 105px 282px 110px 281px;
+}
+
+.middle-section p {
+    margin: 0 282px 87px 281px;
+    width: 949px;
+    height: 183px;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.bottom-section{
+    height: 100vh;
+    background-image: url(img/bgc1przr.png);
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.bottom-section div{
+    margin: 157px 0;
+    width: 453.6px;
+    height: 700px;
+    background-color:rgba(83, 83, 83, 0.40);
+    display: flex;
+
+    align-items: center;
+    flex-direction: column;
+   }
+.bottom-section div img{
+    margin-top: 25px;
+    width: 408.6px;
+    height: 214px;
+}
+.bottom-section div button{
+    width: 409px;
+    height: 76px;
+    border-radius: 5px;
+    border: 1px solid rgba(156, 152, 152, 0.10);
+    background: rgba(217, 217, 217, 0.60);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    font-size: 30px;
+}
+.bottom-section div h2{
+    font-size: 35px;
+    margin-top: 32px;
+
+}
