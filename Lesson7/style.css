@@ -116,5 +116,8 @@
 .bottom-section div h2{
     font-size: 35px;
     margin-top: 32px;
-
+}
+.bottom-section div p{
+    font-size: 35px;
+    margin-top: 24px;
 }
