@@ -5,7 +5,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     background-color: #1E1E1E;
 }
 
@@ -37,7 +38,8 @@ header ul li {
     background: #B3A0CD;
     padding: 21px 26px 22px 27px;
 }
-main{
+
+main {
     color: #E9E3DC;
     margin-top: 170px;
     text-align: center;
