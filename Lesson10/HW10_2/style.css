@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1E1E1E;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.menu {
+    background-color: #1E1E1E;;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+header ul li {
+    list-style-type: none;
+    font-family: "Bowlby One", sans-serif;
+    font-size: 18px;
+    display: inline;
+    margin-right: 59px;
+}
+
+.menu > ul > li:last-child {
+    background: #B3A0CD;
+    padding: 21px 26px 22px 27px;
+}
+main{
+    color: #E9E3DC;
+    margin-top: 170px;
+    text-align: center;
+    font-family: "Bowlby One";
+    font-size: 107.088px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 88.896%; /* 95.198px */
+    letter-spacing: -2.142px;
+    text-transform: uppercase;
+    margin-bottom: 33px;
+}
