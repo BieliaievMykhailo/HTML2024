@@ -83,9 +83,10 @@ main p {
 .red {
     color: #A90102;
 }
+
 /*_____________________Page 2_____________________*/
 
-section{
+section {
     height: 100vh;
     width: 100%;
     display: flex;
@@ -94,7 +95,8 @@ section{
     flex-direction: column;
     background-color: #FFF;
 }
-.products{
+
+.products {
     /*height: 100%;*/
     display: flex;
     justify-content: center;
@@ -102,7 +104,8 @@ section{
     gap: 128px;
     margin-bottom: 308px;
 }
-section h1{
+
+section h1 {
     color: #142823;
     font-family: Inter, sans-serif;
     font-size: 48px;
@@ -111,7 +114,8 @@ section h1{
     margin: 212px 484px 57px 484px;
     text-align: center;
 }
-.neon, .zegama, .vaporfly{
+
+.neon, .zegama, .vaporfly {
     height: 331px;
     width: 285px;
     display: flex;
@@ -124,17 +128,25 @@ section h1{
     background-color: #FFF;
     /* 200 */
     box-shadow: 0 4px 20px 0 rgba(139, 139, 139, 0.10);
+    position: relative;
 }
-a{
+
+a {
     text-decoration-line: none;
     font-family: Inter, sans-serif;
     font-size: 18px;
     color: #282828;
     font-weight: 700;
 }
-.neon, .zegama, .vaporfly > p{
+
+.neon, .zegama, .vaporfly > p {
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
+}
+
+.rated {
+    position: absolute;
+    top: -20px;
 }
 
