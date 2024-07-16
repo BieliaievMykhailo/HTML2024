@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+video {
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+}
+
+.menu {
+    font-size: 30px;
+}
+
+p {
+    font-size: 40px;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: fixed;
+    top: 30px;
+    left: 150px;
+}
+
+.menu ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.menu ul a {
+    font-size: 20px;
+    color: white;
+    text-decoration-line: none;
+    margin-right: 50px;
+}
+
+.menu {
+    position: fixed;
+    top: 50px;
+    right: 200px
+}
+
+.btnreg {
+    height: 50px;
+    width: 140px;
+    background-color: white;
+    border-radius: 5px;
+    border: 0;
+    font-size: 18px;
+}
+
+form {
+    width: 700px;
+    height: 55px;
+    font-size: 30px;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 450px;
+}
+
+.btnvideo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color: #e5e3e3;
+    width: 150px;
+    height: 45px;
+    border-radius: 5px;
+    margin-left: 5px;
+    border: 1px solid #c2c1c1;
+    font-size: 18px
+}
+
+input {
+    width: 450px;
+    height: 54px;
+    border: 0;
+    font-size: 20px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.message {
+    color: white;
+    font-size: 25px;
+    width: 700px;
+}
