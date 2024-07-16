@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .content {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        video {
+            width: 100%;
+            height: 80vh;
+            object-fit: cover;
+            position: absolute;
+            z-index: -1;
+            top: 0;
+        }
+
+        .menu {
+            font-size: 30px;
+        }
+
+        p {
+            font-size: 40px;
+            color: white;
+        }
+
+        .logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            position: fixed;
+            top: 30px;
+            left: 150px;
+        }
+
+        .menu ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .menu ul a {
+            font-size: 20px;
+            color: white;
+            text-decoration-line: none;
+            margin-right: 50px;
+        }
+
+        .menu {
+            position: fixed;
+            top: 50px;
+            right: 300px
+        }
+
+        .btnreg {
+            height: 50px;
+            width: 140px;
+            background-color: white;
+            border-radius: 5px;
+            border: 0;
+            font-size: 18px;
+        }
+
+        form {
+            width: 700px;
+            height: 55px;
+            font-size: 30px;
+            border-radius: 5px;
+            background-color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+            top: 500px;
+        }
+
+        .btnvideo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+            background-color: #e5e3e3;
+            width: 150px;
+            height: 45px;
+            border-radius: 5px;
+            margin-left: 5px;
+            border: 1px solid #c2c1c1;
+            font-size: 18px
+        }
+
+        input {
+            width: 450px;
+            height: 54px;
+            border: 0;
+            font-size: 20px;
+        }
+
+        input:focus {
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+<div class="content">
+    <div class="logo">
+        <img style="width: 80px" src="media/Pexels_logo.png" alt="">
+        <p>Pexels</p>
+    </div>
+
+    <div class="menu">
+        <ul>
+            <li><a href="#">Пошук</a></li>
+            <li><a href="#">Ліцензія</a></li>
+            <li><a href="#">Завантаження</a></li>
+            <li><a href="#"><b>...</b></a></li>
+            <li>
+                <button class="btnreg">Реєстрація</button>
+            </li>
+        </ul>
+    </div>
+
+    <form>
+        <button class="btnvideo"><img src="media/video_icon.png" alt="">Відео</button>
+        <input type="search" placeholder="Пошук безкоштовних відео">
+        <button style="border: 0; background-color: white;"><img style="width: 35px; margin-right: 10px"
+                                                                 src="media/search_20dp_E8EAED_FILL0_wght400_GRAD0_opsz20.png"
+                                                                 alt="0"></button>
+    </form>
+    <video src="media/video.mp4" loop autoplay muted></video>
+</div>
+
+</body>
+</html>
