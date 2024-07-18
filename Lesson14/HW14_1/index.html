@@ -17,13 +17,17 @@
 
         body {
             background-color: #F7F6F4;
+            width: 1440px;
+            height: 2069px;
         }
 
+        /*--------------------nav-----------------------*/
         nav {
             display: flex;
-            justify-content: center;
+            justify-content: flex-start;
             align-items: center;
-            background-color: #39833a;
+            background-color: #F7F6F4;
+
         }
 
         nav > ul {
@@ -32,6 +36,7 @@
             align-items: center;
             gap: 40px;
             list-style-type: none;
+            padding-bottom: 50px;
         }
 
         nav > ul > li {
@@ -42,7 +47,6 @@
             text-decoration: none;
             color: #333;
             display: block;
-            padding: 36px 0;
             font-family: Taviraj, sans-serif;
             font-size: 20px;
             font-style: normal;
@@ -71,15 +75,37 @@
             font-weight: 400;
             line-height: normal;
             letter-spacing: 0.4px;
+
         }
-        nav>ul>li:hover .dropdown{
+
+        nav > ul > li:hover .dropdown {
             display: block;
+        }
+
+        nav > img {
+            width: 178px;
+            margin: 42px 186px 96px 165px;
+        }
+
+        /*--------------------section-----------------------*/
+        section {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            width: 1110px;
+            height: 505px;
+            background-color: #F1DDC9;
+            margin-left: 164px;
+        }
+        .kambas{
+
         }
 
     </style>
 </head>
 <body>
 <nav>
+    <img src="img/matoa.png" alt="matoa">
     <ul>
         <li><a href="#">Watches</a></li>
         <li><a href="#">Eyewear</a></li>
@@ -93,6 +119,22 @@
         <li><a href="#">News</a></li>
     </ul>
 </nav>
+<section>
+    <img src="img/w1.png" alt="watch" style="width: 325px">
+    <div class="kambas"><pre style="color: #333; font-family: Taviraj, sans-serif; font-size: 60px;
+font-style: normal; font-weight: 400; line-height: 80px; letter-spacing: 1.2px; margin: 56px 317px 32px 56px">WAY KAMBAS
+MINI EBONY</pre>
+        <pre style="color: #333; font-family: Nunito, sans-serif; font-size: 16px; font-style: normal;
+font-weight: 400; line-height: normal; letter-spacing: 0.48px; margin: 0 201px 79px 56px">MATOA Way Kambas - This wood is chosen to represent the
+Sumatran Rhino's skin which is designed with an overlap effect on its
+strap to represent Rhino's skin.</pre>
+        <button style="width: 208px; height: 62px; background-color: #D84727; border: none; margin: 0 522px 50px 56px;
+font-family: Taviraj, sans-serif; font-size: 20px; color: #FFF; letter-spacing: 0.4px;">
+            Add to cart</button>
+    </div>
+
+
+</section>
 
 </body>
 </html>
