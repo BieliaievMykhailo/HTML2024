@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F7F6F4;
+    width: 1440px;
+    height: 2069px;
+}
+
+/*--------------------nav-----------------------*/
+nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #F7F6F4;
+
+}
+
+nav > ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    list-style-type: none;
+    padding-bottom: 50px;
+}
+
+nav > ul > li {
+    position: relative;
+}
+
+nav > ul > li > a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    font-family: Taviraj, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.4px;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    width: 160px;
+    height: 107px;
+    background-color: rgba(255, 255, 255, 0.3);
+    list-style-type: none;
+    padding: 15px 41px 23px 20px;
+}
+
+.dropdown a {
+    text-decoration: none;
+    color: #333333;
+    display: block;
+    font-family: Taviraj, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.4px;
+
+}
+
+nav > ul > li:hover .dropdown {
+    display: block;
+}
+
+nav > img {
+    width: 178px;
+    margin: 42px 186px 96px 165px;
+}
+
+/*--------------------section-----------------------*/
+section {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 1110px;
+    height: 505px;
+    background-color: #F1DDC9;
+    margin-left: 164px;
+}
+
+.kambas .matoa {
+    color: #333;
+    font-family: Nunito, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.48px;
+    margin: 0 201px 79px 56px
+}
+
+.kambas .way {
+    color: #333;
+    font-family: Taviraj, sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 80px;
+    letter-spacing: 1.2px;
+    margin: 56px 317px 32px 56px
+}
+
+.kambas button {
+    width: 208px;
+    height: 62px;
+    background-color: #D84727;
+    border: none;
+    margin: 0 522px 50px 56px;
+    font-family: Taviraj, sans-serif;
+    font-size: 20px;
+    color: #FFF;
+    letter-spacing: 0.4px;
+}
+
+/*---------------------------Monthly Deals-----------------------*/
+
+.montley_deals {
+    color: #333;
+    font-family: Taviraj, sans-serif;
+    font-size: 36px;
+    margin: 79px 1016px 129px 165px
+}
+
+.deals {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.wtch {
+    width: 255px;
+    height: 278px;
+    background-color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 24px;
+    position: relative;
+}
+
+.wtch > p > a {
+    text-decoration: none;
+    color: #333;
+    font-family: Taviraj, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    position: absolute;
+    bottom: 20px;
+}
+
+.wtch img {
+    position: absolute;
+    top: -25px;
+}
+
+/*---------------------------Recent News-------------------------*/
+.recent_news {
+    width: 1110px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 132px 179px 181px 164px;
+}
+
+.text1 {
+    color: #333;
+    font-family: Taviraj, sans-serif;
+    font-size: 36px;
+    margin-right: 55px;
+}
+
+.text2 {
+    color: #777;
+    font-family: Taviraj, sans-serif;
+    font-size: 20px;
+    margin-top: 181px;
+    margin-bottom: 16px;
+}
+
+.recent_news img {
+    margin-top: 101px;
+}

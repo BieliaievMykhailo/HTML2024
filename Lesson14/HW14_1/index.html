@@ -6,102 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            background-color: #F7F6F4;
-            width: 1440px;
-            height: 2069px;
-        }
-
-        /*--------------------nav-----------------------*/
-        nav {
-            display: flex;
-            justify-content: flex-start;
-            align-items: center;
-            background-color: #F7F6F4;
-
-        }
-
-        nav > ul {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 40px;
-            list-style-type: none;
-            padding-bottom: 50px;
-        }
-
-        nav > ul > li {
-            position: relative;
-        }
-
-        nav > ul > li > a {
-            text-decoration: none;
-            color: #333;
-            display: block;
-            font-family: Taviraj, sans-serif;
-            font-size: 20px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: normal;
-            letter-spacing: 0.4px;
-        }
-
-        .dropdown {
-            display: none;
-            position: absolute;
-            width: 160px;
-            height: 107px;
-            background-color: rgba(255, 255, 255, 0.3);
-            list-style-type: none;
-            padding: 15px 41px 23px 20px;
-        }
-
-        .dropdown a {
-            text-decoration: none;
-            color: #333333;
-            display: block;
-            font-family: Taviraj, sans-serif;
-            font-size: 20px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: normal;
-            letter-spacing: 0.4px;
-
-        }
-
-        nav > ul > li:hover .dropdown {
-            display: block;
-        }
-
-        nav > img {
-            width: 178px;
-            margin: 42px 186px 96px 165px;
-        }
-
-        /*--------------------section-----------------------*/
-        section {
-            display: flex;
-            justify-content: flex-start;
-            align-items: center;
-            width: 1110px;
-            height: 505px;
-            background-color: #F1DDC9;
-            margin-left: 164px;
-        }
-        .kambas{
-
-        }
-
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <nav>
@@ -121,20 +26,43 @@
 </nav>
 <section>
     <img src="img/w1.png" alt="watch" style="width: 325px">
-    <div class="kambas"><pre style="color: #333; font-family: Taviraj, sans-serif; font-size: 60px;
-font-style: normal; font-weight: 400; line-height: 80px; letter-spacing: 1.2px; margin: 56px 317px 32px 56px">WAY KAMBAS
+    <div class="kambas">
+        <pre class="way">WAY KAMBAS
 MINI EBONY</pre>
-        <pre style="color: #333; font-family: Nunito, sans-serif; font-size: 16px; font-style: normal;
-font-weight: 400; line-height: normal; letter-spacing: 0.48px; margin: 0 201px 79px 56px">MATOA Way Kambas - This wood is chosen to represent the
+        <pre class="matoa">MATOA Way Kambas - This wood is chosen to represent the
 Sumatran Rhino's skin which is designed with an overlap effect on its
 strap to represent Rhino's skin.</pre>
-        <button style="width: 208px; height: 62px; background-color: #D84727; border: none; margin: 0 522px 50px 56px;
-font-family: Taviraj, sans-serif; font-size: 20px; color: #FFF; letter-spacing: 0.4px;">
-            Add to cart</button>
+        <button>Add to cart</button>
     </div>
-
-
 </section>
+<p class="montley_deals">Monthly Deals</p>
 
+<div class="deals">
+    <div class="wtch">
+        <img src="img/image21.png" alt="image21">
+        <p><a href="#">Singo Maple</a></p>
+    </div>
+    <div class="wtch">
+        <img src="img/image22.png" alt="image22">
+        <p><a href="#">Singo Ebony</a></p>
+    </div>
+    <div class="wtch">
+        <img src="img/image23.png" alt="image23">
+        <p><a href="#">Rakai Ebony</a></p>
+    </div>
+    <div class="wtch">
+        <img src="img/image24.png" alt="image24">
+        <p><a href="#">Way Kambas</a></p>
+    </div>
+</div>
+<div class="recent_news">
+    <div><p class="text1">Recent News</p>
+        <p class="text2">Where To Travel</p>
+        <pre class="text1">Matoa Where To
+Travel? Yogyakarta</pre>
+    </div>
+    <img src="img/image3.png" alt="image3">
+
+</div>
 </body>
 </html>
