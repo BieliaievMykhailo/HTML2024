@@ -6,8 +6,90 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #F7F6F4;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #39833a;
+        }
+
+        nav > ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+            list-style-type: none;
+        }
+
+        nav > ul > li {
+            position: relative;
+        }
+
+        nav > ul > li > a {
+            text-decoration: none;
+            color: #333;
+            display: block;
+            padding: 36px 0;
+            font-family: Taviraj, sans-serif;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: 0.4px;
+        }
+
+        .dropdown {
+            display: block;
+            position: absolute;
+            width: 160px;
+            height: 107px;
+            background-color: rgba(255, 255, 255, 0.3);
+            list-style-type: none;
+            padding: 15px 41px 23px 20px;
+        }
+
+        .dropdown a {
+            text-decoration: none;
+            color: #333333;
+            display: block;
+            font-family: Taviraj, sans-serif;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: 0.4px;
+        }
+
+    </style>
 </head>
 <body>
+<nav>
+    <ul>
+        <li><a href="#">Watches</a></li>
+        <li><a href="#">Eyewear</a></li>
+        <li><a href="#">Accessories</a>
+            <ul class="dropdown">
+                <li><a href="#">Fashion</a></li>
+                <li><a href="#">Electronic</a></li>
+                <li><a href="#">Home</a></li>
+            </ul>
+        </li>
+        <li><a href="#">News</a></li>
+    </ul>
+</nav>
 
 </body>
 </html>
