@@ -14,13 +14,14 @@
             padding: 0;
             box-sizing: border-box;
         }
-        body{
+
+        body {
             width: 100vw;
             display: flex;
             justify-content: center;
             align-items: center;
             flex-direction: column;
-                    }
+        }
 
         header {
             width: 1400px;
@@ -31,8 +32,8 @@
             align-items: flex-start;
             position: fixed;
             top: 0;
-                       box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5)
-                    }
+            box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5)
+        }
 
         header div p a {
             text-decoration-line: none;
@@ -48,23 +49,31 @@
             gap: 64px;
             opacity: 0.6;
         }
-        .lorem{
+
+        .lorem {
             font-size: 20px;
             margin: 48px 580px 0 115px;
             font-weight: 700;
         }
-        .menu{
+
+        .menu {
             margin-top: 51px;
             font-size: 16px;
             font-weight: 500;
-                    }
-        section{
-            width: 1400px;
-            height: 2214px;
-            background: #24204A;
-            padding-top: 113px;
         }
-        .btn-one-position{
+
+        section {
+            width: 1400px;
+            height: 692px;
+            background: #24204A;
+            margin-top: 113px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .btn-one-position {
             width: 145px;
             height: 41px;
             border-radius: 8px;
@@ -77,8 +86,10 @@
             line-height: 130%; /* 20.8px */
             letter-spacing: 0.8px;
             border: none;
+            margin: 85px 633px 32px 115px;
         }
-        .btn-about{
+
+        .btn-about {
             width: 200px;
             height: 56px;
             border: none;
@@ -92,6 +103,47 @@
             font-style: normal;
             font-weight: 500;
             line-height: normal;
+            margin-left: 115px;
+        }
+
+        section h2 {
+            color: #FFF;
+            font-family: "Inter", sans-serif;
+            font-size: 36px;
+            font-weight: 700;
+            letter-spacing: 1.8px;
+            width: 573px;
+            margin-left: 115px;
+        }
+
+        section p {
+            width: 570px;
+            height: 85px;
+            color: #8E88C1;
+            font-family: "Inter", sans-serif;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 130%; /* 20.8px */
+            letter-spacing: 0.8px;
+            margin: 32px 208px 32px 115px;
+        }
+
+        .led {
+            width: 375px;
+            height: 411px;
+            border-radius: 8px;
+            background: #827EAC;
+            box-shadow: 0 4px 50px 0 rgba(0, 0, 0, 0.25);
+            margin-top: 67px;
+        }
+
+        main {
+            width: 1400px;
+            height: 764px;
+            background: #071341;
+        }
+        main div{
+
         }
 
     </style>
@@ -113,17 +165,47 @@
     <div class="one-position">
         <button class="btn-one-position">One position</button>
         <div>
-            <p>One position</p>
-            <p>One position</p>
+            <h2>One position</h2>
+            <h2>One position</h2>
         </div>
         <div>
-            <p>One posotionOne posotionOne posotionOne posotionOne posotionOne posotionOne posotionOne posotionOne posotionOne posotionOne posotionOne posotionOne posotionOne posotionOne posotionOne posotionOne posotionOne posotionOne posotion</p>
+            <p>One posotionOne posotionOne posotionOne posotionOne posotionOne posotionOne posotionOne posotionOne
+                posotionOne posotionOne posotionOne posotionOne posotionOne posotionOne posotionOne posotionOne
+                posotionOne posotionOne posotion</p>
         </div>
         <button class="btn-about">ABOUT</button>
     </div>
-    <img src="img/LED-Bulb.png" alt="">
-
+    <div class="led"><img src="img/LED-Bulb.png" alt="LED"></div>
 </section>
+<main>
+    <div class="led-power">
+                <div>
+            <img src="img/entypo_light-down.png" alt="img">
+            <p>40+</p>
+            <p>LOREM</p>
+        </div>
+        <div>
+            <img src="img/entypo_light-down.png" alt="img">
+            <p>40+</p>
+            <p>LOREM</p>
+        </div>
+        <div>
+            <img src="img/entypo_light-down.png" alt="img">
+            <p>40+</p>
+            <p>LOREM</p>
+        </div>
+        <div>
+            <img src="img/entypo_light-down.png" alt="img">
+            <p>40+</p>
+            <p>LOREM</p>
+        </div>
+        <div>
+            <img src="img/entypo_light-down.png" alt="img">
+            <p>40+</p>
+            <p>LOREM</p>
+        </div>
+            </div>
+</main>
 
 </body>
 </html>
