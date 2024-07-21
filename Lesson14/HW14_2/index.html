@@ -6,182 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            width: 100vw;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-        }
-
-        header {
-            width: 1400px;
-            height: 113px;
-            background: #24204A;
-            display: flex;
-            justify-content: flex-start;
-            align-items: flex-start;
-            position: fixed;
-            top: 0;
-            box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5)
-        }
-
-        header div p a {
-            text-decoration-line: none;
-            color: #E5E5E5;
-            font-family: "Inter", sans-serif;
-            font-size: 16px;
-        }
-
-        header div {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 64px;
-            opacity: 0.6;
-        }
-
-        .lorem {
-            font-size: 20px;
-            margin: 48px 580px 0 115px;
-            font-weight: 700;
-        }
-
-        .menu {
-            margin-top: 51px;
-            font-size: 16px;
-            font-weight: 500;
-        }
-
-        section {
-            width: 1400px;
-            height: 692px;
-            background: #24204A;
-            margin-top: 70px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-
-        }
-
-        .btn-one-position {
-            width: 145px;
-            height: 41px;
-            border-radius: 8px;
-            background: #4B4864;
-            color: #8E88C1;
-            font-family: "Inter", sans-serif;
-            font-size: 16px;
-            font-style: normal;
-            font-weight: 500;
-            line-height: 130%; /* 20.8px */
-            letter-spacing: 0.8px;
-            border: none;
-            margin: 85px 633px 32px 115px;
-        }
-
-        .btn-about {
-            width: 200px;
-            height: 56px;
-            border: none;
-            border-radius: 8px;
-            background: #3F50E7;
-            box-shadow: 0 6px 20px 0 rgba(0, 255, 224, 0.20);
-            color: #FFF;
-            text-align: center;
-            font-family: "Inter", sans-serif;
-            font-size: 16px;
-            font-style: normal;
-            font-weight: 500;
-            line-height: normal;
-            margin-left: 115px;
-        }
-
-        section h2 {
-            color: #FFF;
-            font-family: "Inter", sans-serif;
-            font-size: 36px;
-            font-weight: 700;
-            letter-spacing: 1.8px;
-            width: 573px;
-            margin-left: 115px;
-        }
-
-        section p {
-            width: 570px;
-            height: 85px;
-            color: #8E88C1;
-            font-family: "Inter", sans-serif;
-            font-size: 16px;
-            font-weight: 500;
-            line-height: 130%; /* 20.8px */
-            letter-spacing: 0.8px;
-            margin: 32px 208px 32px 115px;
-        }
-
-        .led {
-            width: 375px;
-            height: 411px;
-            border-radius: 8px;
-            background: #827EAC;
-            box-shadow: 0 4px 50px 0 rgba(0, 0, 0, 0.25);
-            margin-top: 67px;
-        }
-
-        main {
-            width: 1400px;
-            height: 764px;
-            background: #071341;
-        }
-
-        main > .led-power > div > div {
-            width: 56.144px;
-            height: 56px;
-            border-radius: 8px;
-            background: #FF6853;
-            display: flex;
-        }
-
-        main .led-power div p {
-            color: #FFF;
-            font-family: "Inter", sans-serif;
-            font-size: 16px;
-            font-style: normal;
-            font-weight: 700;
-            line-height: normal;
-
-        }
-
-        main .led-power div .under40 {
-            color: #8E88C1;
-            font-family: "Inter", sans-serif;
-            font-size: 16px;
-            font-style: normal;
-            font-weight: 500;
-            line-height: 24px; /* 150% */
-            letter-spacing: 0.8px;
-        }
-        main .led-power{
-            display: flex;
-        }
-        main .led-power div{
-            display: flex;
-            gap: 73px;
-        }
-        .led-power{
-            margin-left: 115px;
-        }
-
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header>
@@ -215,41 +40,80 @@
 <main>
     <div class="led-power">
         <div>
-            <div><img src="img/entypo_light-down.png" alt="img" style="margin: 12px"></div>
+            <div style="background-color: #FF6853"><img src="img/entypo_light-down.png" alt="img" style="margin: 12px">
+            </div>
+        </div>
+        <div class="led-text">
             <p>40+</p>
             <p class="under40">LOREM</p>
         </div>
         <div>
-            <div><img src="img/entypo_light-down.png" alt="img" style="margin: 12px"></div>
+            <div style="background-color: #FF537C"><img src="img/entypo_light-down.png" alt="img" style="margin: 12px">
+            </div>
+        </div>
+        <div class="led-text">
             <p>40+</p>
             <p class="under40">LOREM</p>
         </div>
         <div>
-            <div><img src="img/entypo_light-down.png" alt="img" style="margin: 12px"></div>
+            <div style="background-color: #80D2C4"><img src="img/entypo_light-down.png" alt="img" style="margin: 12px">
+            </div>
+        </div>
+        <div class="led-text">
             <p>40+</p>
             <p class="under40">LOREM</p>
         </div>
         <div>
-            <div><img src="img/entypo_light-down.png" alt="img" style="margin: 12px"></div>
+            <div style="background-color: #3F50E7"><img src="img/entypo_light-down.png" alt="img" style="margin: 12px">
+            </div>
+        </div>
+        <div class="led-text">
             <p>40+</p>
             <p class="under40">LOREM</p>
         </div>
         <div>
-            <div><img src="img/entypo_light-down.png" alt="img" style="margin: 12px"></div>
+            <div style="background-color: #95CB7C"><img src="img/entypo_light-down.png" alt="img" style="margin: 12px">
+            </div>
+        </div>
+        <div class="led-text">
             <p>40+</p>
             <p class="under40">LOREM</p>
         </div>
     </div>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam assumenda distinctio earum eos eveniet illum,
+
+    <p class="main-text1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam assumenda distinctio earum
+        eos eveniet illum,
         possimus quis reiciendis </p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam </p>
-    <div class="led-bottom">
-        <div>
+    <p class="main-text2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam </p>
 
+    <div class="led-bottom">
+        <div class="bottom-block">
+            <img src="img/entypo_light.png" alt="img">
+            <p style="width: 178px">One posotionOne posotionOne posotion</p>
+        </div>
+        <div class="bottom-block">
+            <img src="img/entypo_light.png" alt="img">
+            <p>One posotion</p>
+        </div>
+        <div class="bottom-block">
+            <img src="img/entypo_light.png" alt="img">
+            <p>One posotion</p>
+        </div>
+        <div class="bottom-block">
+            <img src="img/entypo_light.png" alt="img">
+            <p style="width: 178px">One posotionOne posotionOne posotion</p>
+        </div>
+        <div class="bottom-block">
+            <img src="img/entypo_light.png" alt="img">
+            <p style="width: 178px">One posotionOne posotionOne posotion</p>
         </div>
     </div>
-
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d41021.32067232123!2d36.25330799802246!3d50.01449383528592!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4127a0e0a29238cf%3A0xa677dada92528ae4!2z0KPQvdGW0LLQtdGA0YHQuNGC0LXRgg!5e0!3m2!1suk!2sua!4v1721564584810!5m2!1suk!2sua"
+            width="1400" height="664" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
 </main>
-
+<footer>
+    <p>© One posotion”</p>
+</footer>
 </body>
 </html>
