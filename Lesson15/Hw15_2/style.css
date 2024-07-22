@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 20vh;
+    background-color: #ef9292;
+}
+
+main {
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+}
+
+.b {
+    height: 30vh;
+    width: 60vw;
+    background-color: #daa46c;
+}
+
+.c {
+    height: 30vh;
+    width: 20vw;
+    background-color: #deac2f;
+}
+
+.d {
+    height: 30vh;
+    width: 20vw;
+    background-color: #aed714;
+}
+
+.e {
+    height: 30vh;
+    width: 20vw;
+    background-color: #35e310;
+}
+
+.f {
+    height: 60vh;
+    width: 40vw;
+    background-color: #0ce8e2;
+}
+
+.cde {
+    display: flex;
+}

@@ -1,23 +1,27 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-header{
+
+header {
     width: 100vw;
     height: 20vh;
     background-color: #f68e8e;
 }
-.b{
+
+.b {
     width: 70vw;
     height: 80vh;
     background-color: #c5e173;
 }
+
 .c {
     width: 30vw;
     height: 80vh;
     background-color: #5e5be0;
 }
-main{
+
+main {
     display: flex;
 }

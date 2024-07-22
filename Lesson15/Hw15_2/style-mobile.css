@@ -1,0 +1,51 @@
+@media screen and (max-width: 480px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    header {
+        height: 20vh;
+        background-color: #ef9292;
+    }
+
+    .b {
+        height: 30vh;
+        width: 100vw;
+        background-color: #daa46c;
+    }
+
+    .c {
+        height: 30vh;
+        width: 33vw;
+        background-color: #deac2f;
+    }
+
+    .d {
+        height: 30vh;
+        width: 33vw;
+        background-color: #aed714;
+    }
+
+    .e {
+        height: 30vh;
+        width: 34vw;
+        background-color: #35e310;
+    }
+
+    .cde {
+        display: flex;
+    }
+
+    .f {
+        height: 20vh;
+        width: 100vw;
+        background-color: #0ce8e2;
+    }
+
+    main {
+        display: block;
+    }
+
+}
