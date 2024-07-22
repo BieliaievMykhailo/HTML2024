@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+@media screen and (min-width: 480px) and  (max-width: 1280px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    html {
+        background-color: rgba(145, 232, 152, 0.44);
+    }
+
+    body {
+        width: 720px;
+        height: 732px;
+        margin: 48px 24px;
+        display: block;
+    }
+
+    section {
+        width: 720px;
+        height: 303px;
+        margin: 0;
+    }
+
+    nav button {
+        width: 174px;
+        height: 41px;
+        border-radius: 8px;
+        background: #FF9500;
+        border: none;
+        font-family: "Inter", sans-serif;
+        font-size: 18px;
+        color: #FFFFFF;
+        margin-right: 24px;
+    }
+
+    nav a {
+        font-family: "Inter", sans-serif;
+        font-size: 18px;
+        color: #6F1DF4;
+    }
+
+    h1 {
+        color: #000;
+        font-family: "Inter", sans-serif;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        letter-spacing: 0.25px;
+        margin: 16px 0;
+    }
+
+    li {
+        color: #3C3C43;
+        font-family: "Inter", sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%; /* 33.6px */
+    }
+
+    ul {
+        padding-inline-start: 40px;
+        margin-top: 0;
+    }
+
+    section > button {
+        width: 132px;
+        height: 56px;
+        border-radius: 8px;
+        background: #6F1DF4;
+        border: none;
+        font-family: "Inter", sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        color: #F3F5F6;
+        margin-top: 32px;
+    }
+
+    iframe {
+        width: 720px;
+        height: 405px;
+        margin-top: 24px;
+    }
+
+}
