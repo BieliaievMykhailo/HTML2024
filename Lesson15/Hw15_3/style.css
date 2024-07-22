@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    text-justify: auto;
+    line-height: 200%;
+}
+
+.lnk, .banner, .article, footer {
+    background-color: #00afa4;
+    border-radius: 10px;
+}
+
+.lnk {
+    height: 5vh;
+    width: 10vw;
+    background-color: #00afa4;
+
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+.banner {
+    height: 40vh;
+    width: 100vw;
+    margin-top: 10px;
+}
+
+main {
+    height: 45vh;
+    width: 100vw;
+    display: flex;
+}
+
+.article {
+    height: 23vh;
+    width: 49vw;
+    margin: 10px 10px 0 10px;
+}
+
+footer {
+    height: 5vh;
+    width: 100vw;
+}

@@ -1,0 +1,47 @@
+@media screen and (min-width: 0) and (max-width: 480px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-size: 30px;
+        color: white;
+        text-align: center;
+        text-justify: auto;
+        line-height: 200%;
+    }
+
+    .lnk {
+        height: 6vh;
+        width: 100vw;
+
+    }
+
+    nav {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .banner {
+        height: 18vh;
+        width: 100vw;
+        margin: 5px 0 0 0;
+    }
+
+    .article {
+        height: 12vh;
+        width: 100vw;
+        margin: 5px 0 0 0;
+    }
+
+    main {
+        display: block;
+    }
+
+    footer {
+        height: 6vh;
+        width: 100vw;
+        margin-top: 55px;
+    }
+}
