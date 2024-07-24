@@ -2,12 +2,13 @@
     .grid {
         display: grid;
         height: 100vh;
-        grid-template-rows: 1fr 3fr 1fr;
-        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 3fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         grid-template-areas:
-                'header'
-                'b'
-                'c'
+                'header header header'
+                'b b b'
+                'c d e'
+                'f f f';
 
     }
 

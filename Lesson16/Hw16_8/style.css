@@ -6,27 +6,42 @@
 .grid {
     display: grid;
     height: 100vh;
-    grid-template-rows: 1fr 2fr;
-    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-areas:
-                'header header'
-                'b c';
+                'header header header header'
+                'b b b f'
+                'c d e f';
     gap: 20px;
 }
 
 header {
     grid-area: header;
-    background-color: #f68e8e;
+    border: 1px solid;
 }
 
 .b {
     grid-area: b;
-    background-color: #c5e173;
+    border: 1px solid;
 }
 
 .c {
     grid-area: c;
-    background: #C8C5C5;
+    border: 1px solid;
 }
 
+.d {
+    grid-area: d;
+    border: 1px solid;
+}
+
+.e {
+    grid-area: e;
+    border: 1px solid;
+}
+
+.f {
+    grid-area: f;
+    border: 1px solid;
+}
 
