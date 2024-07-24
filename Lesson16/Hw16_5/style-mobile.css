@@ -1,0 +1,15 @@
+@media screen and (min-width: 0) and  (max-width: 480px) {
+    .grid {
+        display: grid;
+        height: 100vh;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+                'header header'
+                'section2 section1 '
+                'section3 section4'
+                'section5 section5'
+                'footer footer';
+    }
+
+}

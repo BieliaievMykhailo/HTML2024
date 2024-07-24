@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    border-radius: 20px;
+}
+
+.grid {
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 1fr 2fr;
+    grid-template-columns: 3fr 1fr;
+    grid-template-areas:
+                'header header'
+                'b c';
+    gap: 20px;
+}
+
+header {
+    grid-area: header;
+    background-color: #f68e8e;
+}
+
+.b {
+    grid-area: b;
+    background-color: #c5e173;
+}
+
+.c {
+    grid-area: c;
+    background: #C8C5C5;
+}
+
+
