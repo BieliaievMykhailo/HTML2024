@@ -262,7 +262,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     .donation > div {
@@ -338,6 +338,7 @@
 
     .donation > img {
         width: 260px;
+        margin-bottom: 42px;
     }
 
     /*----------------------footer-------------------------------------*/
