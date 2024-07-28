@@ -241,3 +241,47 @@ section a{
     line-height: 130%;
     letter-spacing: 1.02px;
 }
+section>div{
+    margin-bottom: 30px;
+}
+
+/*---------------------------------main-----------------------------*/
+main{
+    height: 611px;
+    width: 1280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+main h3{
+    color: #545454;
+    text-align: center;
+    font-family: Georgia, sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 45.5px */
+    letter-spacing: 2.1px;
+    width: 308px;
+    height: 90px;
+}
+main>div{
+    height: 431px;
+    width: 1026px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main div a{
+    text-decoration: none;
+    list-style-type: none;
+    color: #545454;
+    text-align: center;
+    font-family: Georgia, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 115%;
+    letter-spacing: 1.2px;
+}
