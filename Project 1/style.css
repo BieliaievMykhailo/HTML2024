@@ -90,6 +90,7 @@ nav > div > ul {
     width: 207px;
     border-radius: 100px;
     background: #F1CDB3;
+    border: none;
 }
 
 .start-screen-content a {
@@ -163,6 +164,7 @@ section {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: #F6F6F6;
 }
 
 section > div {
@@ -170,7 +172,7 @@ section > div {
     justify-content: center;
     align-items: center;
     gap: 90px;
-}
+    }
 
 section h3 {
     color: #545454;
@@ -186,12 +188,16 @@ section h3 {
 }
 
 section > div > div {
+    width: 270px;
+    height: 435px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: column;
     gap: 30px;
-}
+    background-color: #FAFAFA;
+    border-radius: 9px 9px 0 0;
+    }
 
 section p {
     color: #545454;
@@ -207,6 +213,7 @@ section > div > div > button {
     height: 52px;
     width: 187px;
     border-radius: 100px;
+    background: #FAFAFA;
     border: 2px solid #F1CDB3;
     color: #292929;
     font-family: Georgia, sans-serif;
@@ -215,7 +222,7 @@ section > div > div > button {
     font-weight: 400;
     line-height: 130%;
     letter-spacing: 1.02px;
-}
+    }
 
 section > button {
     height: 52px;
@@ -246,9 +253,7 @@ section a {
     letter-spacing: 1.02px;
 }
 
-section > div {
-    margin-bottom: 30px;
-}
+
 
 /*---------------------------------main-----------------------------*/
 main {
@@ -377,7 +382,51 @@ main img {
 
 /*----------------------footer-------------------------------------*/
 footer{
+    background-image: url("img/footer-gradient-background.png");
     height: 350px;
     width: 1280px;
-
+    display: flex;
+    justify-content: space-between;
+    align-items: self-start;
 }
+footer h3{
+    width: 280px;
+    height: 90px;
+    color: #FFF;
+    font-family: Georgia, sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 2.1px;
+}
+address div, .contact div, address div pre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F1CDB3;
+    font-family: Georgia, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 115%;
+    letter-spacing: 1.2px;
+        }
+address, .contact{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 56px;
+}
+.contact{
+    margin-left: 40px
+}
+footer>img{
+    margin: 40px 40px 0 0;
+}
+address>div>img, .contact>div>img{
+    margin-right: 20px;
+}
+
