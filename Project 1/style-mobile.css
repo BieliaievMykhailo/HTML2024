@@ -343,59 +343,64 @@
 
     /*----------------------footer-------------------------------------*/
     footer {
-        background-image: url("img/footer-gradient-background.png");
-        height: 350px;
-        width: 1280px;
+        background-image: url("img/footer-gradient-background (1).png");
+        height: 809px;
+        width: 320px;
         display: flex;
-        justify-content: space-between;
-        align-items: self-start;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
     }
 
     footer h3 {
-        width: 280px;
-        height: 90px;
+        width: 278px;
+        height: 64px;
         color: #FFF;
         font-family: Georgia, sans-serif;
-        font-size: 35px;
+        font-size: 25px;
         font-style: normal;
         font-weight: 400;
         line-height: 130%;
-        letter-spacing: 2.1px;
+        letter-spacing: 1.5px;
+        text-align: center;
+        margin: 30px 21px 45px 21px;
     }
 
-    address div, .contact div, address div pre {
+
+    .contact {
         display: flex;
         justify-content: center;
         align-items: center;
-        color: #F1CDB3;
-        font-family: Georgia, sans-serif;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 115%;
-        letter-spacing: 1.2px;
+        flex-direction: column;
+        gap: 0;
+        margin: 0;
+    }
+    .contact div{
+        margin-bottom: 40px;
     }
 
-    address, .contact {
+    address{
+        width: 270px;
+        height: 64px;
         display: flex;
         justify-content: center;
         align-items: flex-start;
         flex-direction: column;
-        gap: 40px;
-        margin-top: 56px;
+        gap: 0;
+        margin-top: 40px;
     }
-
-    .contact {
-        margin-left: 40px
+    address div img{
+        margin: 0 20px 0 10px;
     }
-
+    address div{
+        margin-bottom: 45px;
+    }
     footer > img {
         margin: 40px 40px 0 0;
+        width: 260px;
     }
 
-    address > div > img, .contact > div > img {
-        margin-right: 20px;
-    }
+
 
 
 }

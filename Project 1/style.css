@@ -172,7 +172,7 @@ section > div {
     justify-content: center;
     align-items: center;
     gap: 90px;
-    }
+}
 
 section h3 {
     color: #545454;
@@ -197,7 +197,7 @@ section > div > div {
     gap: 30px;
     background-color: #FAFAFA;
     border-radius: 9px 9px 0 0;
-    }
+}
 
 section p {
     color: #545454;
@@ -222,7 +222,7 @@ section > div > div > button {
     font-weight: 400;
     line-height: 130%;
     letter-spacing: 1.02px;
-    }
+}
 
 section > button {
     height: 52px;
@@ -291,12 +291,13 @@ main > div {
     margin-bottom: 100px;
     gap: 55px 118px;
 }
-main>div>div{
+
+main > div > div {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
-            }
+}
 
 main div a {
     text-decoration: none;
@@ -316,7 +317,7 @@ main img {
 }
 
 /*-------------------------donation---------------------------*/
-.donation{
+.donation {
     height: 462px;
     width: 1280px;
     background-color: #F6F6F6;
@@ -324,7 +325,8 @@ main img {
     justify-content: center;
     align-items: center;
 }
-.donation>div{
+
+.donation > div {
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -332,7 +334,8 @@ main img {
     gap: 20px;
     margin-left: 30px;
 }
-.donation h3{
+
+.donation h3 {
     color: #545454;
     font-family: Georgia, sans-serif;
     font-size: 35px;
@@ -342,7 +345,8 @@ main img {
     letter-spacing: 2.1px;
     width: 300px;
 }
-.donation>div>p{
+
+.donation > div > p {
     color: #545454;
     font-family: Georgia, sans-serif;
     font-size: 15px;
@@ -351,11 +355,12 @@ main img {
     line-height: 110%;
     letter-spacing: 0.9px;
 }
-.credit-card{
+
+.credit-card {
     display: flex;
     justify-content: center;
     align-items: center;
-        color: #545454;
+    color: #545454;
     font-family: Georgia, sans-serif;
     font-size: 20px;
     font-style: normal;
@@ -365,11 +370,13 @@ main img {
     border-radius: 9px;
     background: #F1CDB3;
     padding: 10px 15px;
-    }
-.credit-card img{
+}
+
+.credit-card img {
     margin: 0 15px;
 }
-.information{
+
+.information {
     color: #B2B2B2;
     font-family: Arial, sans-serif;
     font-size: 12px;
@@ -380,7 +387,7 @@ main img {
 }
 
 /*----------------------footer-------------------------------------*/
-footer{
+footer {
     background-image: url("img/footer-gradient-background.png");
     height: 350px;
     width: 1280px;
@@ -388,7 +395,8 @@ footer{
     justify-content: space-between;
     align-items: self-start;
 }
-footer h3{
+
+footer h3 {
     width: 280px;
     height: 90px;
     color: #FFF;
@@ -399,7 +407,8 @@ footer h3{
     line-height: 130%;
     letter-spacing: 2.1px;
 }
-address div, .contact div, address div pre{
+
+address div, .contact div, address div pre {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -410,8 +419,9 @@ address div, .contact div, address div pre{
     font-weight: 400;
     line-height: 115%;
     letter-spacing: 1.2px;
-        }
-address, .contact{
+}
+
+address, .contact {
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -419,13 +429,16 @@ address, .contact{
     gap: 40px;
     margin-top: 56px;
 }
-.contact{
+
+.contact {
     margin-left: 40px
 }
-footer>img{
+
+footer > img {
     margin: 40px 40px 0 0;
 }
-address>div>img, .contact>div>img{
+
+address > div > img, .contact > div > img {
     margin-right: 20px;
 }
 
