@@ -105,6 +105,7 @@ article{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 120px;
 }
 article h3{
     color: #545454;
@@ -115,4 +116,26 @@ article h3{
     line-height: 130%;
     letter-spacing: 2.1px;
     width: 370px;
+}
+article p{
+    color: #4C4C4C;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    width: 430px;
+}
+article div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+/*---------------------details-------------------------------*/
+details{
+    height: 877px;
+    width: 1280px;
 }
