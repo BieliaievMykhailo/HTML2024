@@ -123,7 +123,6 @@
         width: 270px;
         text-align: center;
         margin-bottom: 25px;
-        /*margin-top: 42px;*/
     }
 
     article p {
@@ -142,11 +141,51 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        gap: 0;
-    }
-    article img{
+                    }
+
+    article img {
         width: 260px;
         margin-top: 20px;
     }
+
+    /*---------------------section-------------------------------*/
+    section {
+        height: 791px;
+        width: 320px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #F6F6F6;
+    }
+
+    section > div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0;
+        margin-top: 42px;
+    }
+
+    section h3 {
+        color: #545454;
+        text-align: center;
+        font-family: Georgia, sans-serif;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%;
+        letter-spacing: 1.5px;
+        width: 300px;
+        margin: 0;
+    }
+    section div div:nth-child(1n+2){
+        display: none;
+    }
+    section> button{
+        margin: 72px 0 42px 0;
+    }
+
+
 
 }
