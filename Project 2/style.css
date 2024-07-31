@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1440px;
+    height: 4976px;
+    margin: 0 auto;
+    background-color: #02061A;
+    /*background-color: #815f5f;*/
+}
+
+/*------------------------header------------------------------*/
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+nav a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 44px;
+    margin-top: 88px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+.crypto {
+    margin: 92px 554px 188px 192px;
+}
+
+.crypto a {
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit, sans-serif;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.menu a {
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.poster button {
+    width: 256px;
+    height: 95px;
+    border-radius: 50px;
+}
+.poster h2{
+    color: #FFF;
+    font-family: Outfit, sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    width: 522px;
+    height: 233px;
+}
+.poster img{
+    width: 467.417px;
+    height: 461.312px;
+    border-radius: 10px;
+    background: #02061A;
+}
+.poster{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
