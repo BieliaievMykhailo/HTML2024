@@ -302,6 +302,10 @@ aside button a{
     background: #3A5B6A;
     margin-left: 11px;
     margin-top: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 44px;
 }
 .collection li{
     color: #FFF;
@@ -311,8 +315,12 @@ aside button a{
     font-weight: 700;
     line-height: normal;
     text-transform: capitalize;
+    margin-top: 18px;
 }
 .collection ul{
     display: flex;
-}
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }
 
