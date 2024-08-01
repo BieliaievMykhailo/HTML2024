@@ -39,11 +39,11 @@ nav a {
 
 nav {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .crypto {
-    margin: 92px 554px 188px 192px;
+    margin: 92px 554px 327px 195px;
 }
 
 .crypto a {
@@ -68,12 +68,7 @@ nav {
     text-transform: capitalize;
 }
 
-.poster button {
-    width: 256px;
-    height: 95px;
-    border-radius: 50px;
-}
-.poster h2{
+.poster p{
     color: #FFF;
     font-family: Outfit, sans-serif;
     font-size: 60px;
@@ -83,17 +78,106 @@ nav {
     text-transform: capitalize;
     width: 522px;
     height: 233px;
+    margin-bottom: 31px;
 }
 .poster img{
-    width: 467.417px;
-    height: 461.312px;
     border-radius: 10px;
-    background: #02061A;
-}
+    position: absolute;
+    left: 522px;
+    bottom: 0;
+    transform: skew(-5deg);
+            }
 .poster{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    position: relative;
+    margin-left: 181px;
 
 }
+.sell-nfts{
+    background: #23263C;
+    border-radius: 50px;
+    border: none;
+    width: 256px;
+    height: 95px;
+    flex-shrink: 0;
+    margin-right: 22px;
+        }
+.sell-nfts a{
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit, sans-serif;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    }
+.buy-nfts{
+    width: 254px;
+    height: 95px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    border: 3px solid #23263C;
+    background: #02061A;
+        }
+.buy-nfts a{
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit,sans-serif;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+header svg{
+    flex-shrink: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+header{
+    position: relative;
+}
+header>p{
+    color: #FFF;
+    font-family: Outfit, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    text-align: left;
+    margin: 216px 0 8px 174px;
+}
+.stock{
+    width: 1065px;
+    height: 125px;
+    flex-shrink: 0;
+    border: 1px solid #5BD2BD;
+    background: #23263C;
+    margin-left: 189px;
+    }
+.stock ul{
+    display: flex;
+    justify-content: center;
+    gap: 138px;
+    margin-top: 46px;
+}
+.stock a{
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit, sans-serif;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    opacity: 0.5;
+}
+
 
