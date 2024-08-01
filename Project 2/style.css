@@ -11,7 +11,6 @@
     height: 4976px;
     margin: 0 auto;
     background-color: #02061A;
-    /*background-color: #815f5f;*/
 }
 
 /*------------------------header------------------------------*/
@@ -35,6 +34,7 @@ nav a {
     align-items: center;
     gap: 44px;
     margin-top: 88px;
+    margin-left: 641px;
 }
 
 nav {
@@ -43,7 +43,7 @@ nav {
 }
 
 .crypto {
-    margin: 92px 554px 327px 195px;
+    margin: 92px 0 327px 195px;
 }
 
 .crypto a {
@@ -55,6 +55,7 @@ nav {
     font-weight: 700;
     line-height: normal;
     text-transform: capitalize;
+    position: absolute;
 }
 
 .menu a {
@@ -141,10 +142,11 @@ nav {
 }
 
 header svg {
-    flex-shrink: 0;
+    fill: rgba(84, 197, 173, 0.95);
+    filter: blur(217px);
     position: absolute;
-    left: 0;
-    top: 0;
+    left: -103px;
+    top: -245px;
 }
 
 header {
@@ -263,7 +265,7 @@ main > img {
     width: 70px;
 }
 
-aside button{
+aside button {
     width: 126px;
     height: 68px;
     flex-shrink: 0;
@@ -271,7 +273,8 @@ aside button{
     border: 1px solid #56CAB1;
     background: #02061A;
 }
-aside button a{
+
+aside button a {
     color: #FFF;
     font-family: Outfit, sans-serif;
     font-size: 25px;
@@ -279,12 +282,14 @@ aside button a{
     font-weight: 700;
     line-height: normal;
     text-transform: capitalize;
-    }
-.button1{
+}
+
+.button1 {
     position: relative;
     margin-left: 11px;
 }
-.button-border{
+
+.button-border {
     width: 126px;
     height: 68px;
     flex-shrink: 0;
@@ -294,7 +299,8 @@ aside button a{
     top: 6px;
     left: 5px;
 }
-.collection{
+
+.collection {
     width: 521px;
     height: 132px;
     flex-shrink: 0;
@@ -307,7 +313,8 @@ aside button a{
     align-items: flex-start;
     gap: 44px;
 }
-.collection li{
+
+.collection li {
     color: #FFF;
     font-family: Outfit, sans-serif;
     font-size: 30px;
@@ -317,10 +324,222 @@ aside button a{
     text-transform: capitalize;
     margin-top: 18px;
 }
-.collection ul{
+
+.collection ul {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+/*---------------------------------section---------------------------------*/
+section {
+    display: flex;
+    justify-content: flex-start;
     }
 
+section > div > pre {
+    color: #FFF;
+    font-family: Outfit, sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.carry-out pre {
+    color: #FFF;
+    font-family: Outfit, sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 530px 219px 58px 188px;
+}
+
+.carry-out button {
+    width: 450px;
+    height: 96px;
+    border-radius: 100px;
+    border: 3px solid rgba(84, 197, 173, 0.95);
+    background: #1F143B;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    margin-left: 188px;
+}
+
+.carry-out button a {
+    color: #56CAB1;
+    font-family: Outfit, sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.monkey {
+    color: #56CAB1;
+    font-family: Outfit, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 12px;
+    margin-bottom: 15px;
+    margin-left: 29px;
+}
+
+.picture1 {
+    width: 380.311px;
+    height: 466.66px;
+    transform: rotate(-25.337deg);
+    border-radius: 10px;
+    background: rgba(137, 130, 130, 0.50);
+    mix-blend-mode: screen;
+    margin-bottom: 15px;
+    margin-top: 74px;
+    position: absolute;
+    right: -130px;
+    top: 160px;
+}
+
+.picture1 img {
+    border-radius: 10px;
+    width: 380.121px;
+    height: 323.047px;
+}
+
+.one-of {
+    color: #FFF;
+    font-family: Outfit, sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-left: 29px;
+    width: 175px;
+    }
+
+.one-of span {
+    color: #23263C;
+    font-family: Outfit, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.picture2 {
+    width: 375px;
+    height: 507px;
+    border-radius: 10px;
+    background: rgba(137, 130, 130, 0.50);
+    margin-top: 221px;
+    position: absolute;
+    right: -394px;
+}
+
+.two-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.picture2 button{
+    width: 147.461px;
+    height: 51px;
+    border-radius: 3px;
+    border: 2px solid #000;
+    background: #1F143B;
+    margin-top: 78px;
+    }
+.picture2 a{
+    color: #52A7C6;
+    font-family: Outfit, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.flex{
+    display: flex;
+}
+
+/*--------------------------------------article--------------------------*/
+article{
+    margin-top: 234px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+article p{
+    color: #5BD2BF;
+    font-family: Outfit, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    text-align: center;
+}
+.read-what{
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit, sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    width: 427px;
+}
+.three-blocks{
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    margin-top: 147px;
+    }
+.block{
+    width: 345px;
+    height: 360px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #24293F;
+    position: relative;
+}
+.block h2{
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 83px;
+}
+.block p{
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 27px;
+}
+.block img{
+    border-radius: 100%;
+    position: absolute;
+    right: 100px;
+    top: -75px;
+    filter: grayscale(100%);
+}
