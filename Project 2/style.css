@@ -68,7 +68,7 @@ nav {
     text-transform: capitalize;
 }
 
-.poster p{
+.poster p {
     color: #FFF;
     font-family: Outfit, sans-serif;
     font-size: 60px;
@@ -80,14 +80,16 @@ nav {
     height: 233px;
     margin-bottom: 31px;
 }
-.poster img{
+
+.poster img {
     border-radius: 10px;
     position: absolute;
     left: 522px;
     bottom: 0;
     transform: skew(-5deg);
-            }
-.poster{
+}
+
+.poster {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -95,7 +97,8 @@ nav {
     margin-left: 181px;
 
 }
-.sell-nfts{
+
+.sell-nfts {
     background: #23263C;
     border-radius: 50px;
     border: none;
@@ -103,8 +106,9 @@ nav {
     height: 95px;
     flex-shrink: 0;
     margin-right: 22px;
-        }
-.sell-nfts a{
+}
+
+.sell-nfts a {
     text-decoration: none;
     color: #FFF;
     text-align: center;
@@ -114,35 +118,40 @@ nav {
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
-    }
-.buy-nfts{
+}
+
+.buy-nfts {
     width: 254px;
     height: 95px;
     flex-shrink: 0;
     border-radius: 50px;
     border: 3px solid #23263C;
     background: #02061A;
-        }
-.buy-nfts a{
+}
+
+.buy-nfts a {
     color: #FFF;
     text-align: center;
-    font-family: Outfit,sans-serif;
+    font-family: Outfit, sans-serif;
     font-size: 27px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
 }
-header svg{
+
+header svg {
     flex-shrink: 0;
     position: absolute;
     left: 0;
     top: 0;
 }
-header{
+
+header {
     position: relative;
 }
-header>p{
+
+header > p {
     color: #FFF;
     font-family: Outfit, sans-serif;
     font-size: 30px;
@@ -153,21 +162,24 @@ header>p{
     text-align: left;
     margin: 216px 0 8px 174px;
 }
-.stock{
+
+.stock {
     width: 1065px;
     height: 125px;
     flex-shrink: 0;
     border: 1px solid #5BD2BD;
     background: #23263C;
     margin-left: 189px;
-    }
-.stock ul{
+}
+
+.stock ul {
     display: flex;
     justify-content: center;
     gap: 138px;
     margin-top: 46px;
 }
-.stock a{
+
+.stock a {
     text-decoration: none;
     color: #FFF;
     text-align: center;
@@ -180,4 +192,127 @@ header>p{
     opacity: 0.5;
 }
 
+/*-------------------------------main------------------------------------*/
+main {
+    display: flex;
+    justify-content: flex-start;
+    color: #00a6ff;
+}
+
+main > img {
+    width: 428px;
+    height: 480px;
+    margin: 256px 50px 0 239px;
+}
+
+.be-one {
+    color: #FFF;
+    font-family: Outfit, sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 73px;
+    width: 542px;
+    height: 219px;
+    margin-top: 197px;
+    margin-left: 5px;
+}
+
+.be-one span {
+    color: #56CAB1;
+    font-family: Outfit, sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 73px;
+}
+
+.and-get {
+    width: 521px;
+    color: #4C99BB;
+    font-family: Poppins, sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 31px;
+}
+
+.the-price {
+    margin-left: 11px;
+    color: #FFF;
+    font-family: Outfitб sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    position: relative;
+}
+
+.the-price img {
+    position: absolute;
+    top: 47px;
+    left: 295px;
+    width: 40px;
+}
+
+.the-price svg {
+    position: absolute;
+    left: 220px;
+    top: 68px;
+    width: 70px;
+}
+
+aside button{
+    width: 126px;
+    height: 68px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid #56CAB1;
+    background: #02061A;
+}
+aside button a{
+    color: #FFF;
+    font-family: Outfit, sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    }
+.button1{
+    position: relative;
+    margin-left: 11px;
+}
+.button-border{
+    width: 126px;
+    height: 68px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid #56CAB1;
+    position: absolute;
+    top: 6px;
+    left: 5px;
+}
+.collection{
+    width: 521px;
+    height: 132px;
+    flex-shrink: 0;
+    border-radius: 18px;
+    background: #3A5B6A;
+    margin-left: 11px;
+    margin-top: 34px;
+}
+.collection li{
+    color: #FFF;
+    font-family: Outfit, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.collection ul{
+    display: flex;
+}
 
