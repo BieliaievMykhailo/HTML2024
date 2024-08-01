@@ -543,3 +543,46 @@ article p{
     top: -75px;
     filter: grayscale(100%);
 }
+/*----------------------------------buy now---------------------------*/
+.buy-now{
+    width: 1063px;
+    height: 378px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: linear-gradient(97deg, #1F143B -19.45%, #3C8273 103.56%);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    margin: 208px 189px 0 188px;
+}
+.buy-now pre{
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit, sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    width: 312px;
+    margin: 24px 375px 39px 376px ;
+}
+.buy-now button{
+    width: 344px;
+    height: 85px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #000;
+}
+.buy-now a{
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 150% */
+    text-transform: uppercase;
+}
+
+/*--------------------------footer-----------------------------------------*/
