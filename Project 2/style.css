@@ -586,3 +586,43 @@ article p{
 }
 
 /*--------------------------footer-----------------------------------------*/
+
+/*footer{*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    align-items: flex-start;*/
+/*    !*width: 909px;*!*/
+/*    margin: 262px 191px 0 191px;*/
+/*    gap: 126px;*/
+/*}*/
+/*footer  a{*/
+/*    color: #FFF;*/
+/*    font-family: Outfit, sans-serif;*/
+/*    font-size: 20px;*/
+/*    font-style: normal;*/
+/*    font-weight: 400;*/
+/*    line-height: normal;*/
+/*    text-transform: capitalize;*/
+/*}*/
+/*.big a{*/
+/*    color: #FFF;*/
+/*    font-family: Outfit, sans-serif;*/
+/*    font-size: 25px;*/
+/*    font-style: normal;*/
+/*    font-weight: 700;*/
+/*    line-height: normal;*/
+/*    text-transform: capitalize;*/
+/*}*/
+/*footer ul li{*/
+/*    margin-bottom: 22px;*/
+/*}*/
+
+.grid {
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+                   'title title title title title'
+                    'second second second second second';
+}
