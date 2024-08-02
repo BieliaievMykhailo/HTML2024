@@ -86,8 +86,7 @@ nav {
     border-radius: 10px;
     position: absolute;
     left: 522px;
-    bottom: 0;
-    transform: skew(-5deg);
+    bottom: -30px;
 }
 
 .poster {
@@ -162,7 +161,7 @@ header > p {
     line-height: normal;
     text-transform: uppercase;
     text-align: left;
-    margin: 216px 0 8px 174px;
+    margin: 216px 0 8px 189px;
 }
 
 .stock {
@@ -356,7 +355,7 @@ section > div > pre {
     font-weight: 700;
     line-height: normal;
     text-transform: capitalize;
-    margin: 530px 219px 58px 188px;
+    margin: 435px 219px 58px 188px;
 }
 
 .carry-out button {
@@ -402,8 +401,8 @@ section > div > pre {
     margin-bottom: 15px;
     margin-top: 74px;
     position: absolute;
-    right: -130px;
-    top: 160px;
+    right: -150px;
+    top: 110px;
 }
 
 .picture1 img {
@@ -441,7 +440,7 @@ section > div > pre {
     background: rgba(137, 130, 130, 0.50);
     margin-top: 221px;
     position: absolute;
-    right: -394px;
+    right: -415px;
 }
 
 .two-cards {
@@ -607,7 +606,7 @@ footer {
     justify-content: flex-start;
     align-items: flex-start;
     /*width: 909px;*/
-    margin: 262px 0 0 191px;
+    margin: 286px 0 0 191px;
 }
 
 footer a {
@@ -628,6 +627,7 @@ footer a {
     font-weight: 700;
     line-height: normal;
     text-transform: capitalize;
+    margin-bottom: 19px;
 }
 
 footer ul li {
@@ -694,4 +694,13 @@ footer ul li {
 
 #email::placeholder {
     color: white;
+}
+
+.rectangle {
+    width: 1440px;
+    height: 9px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: linear-gradient(97deg, #1F143B -19.45%, #3C8273 103.56%);
+    margin-top: 134px;
 }
