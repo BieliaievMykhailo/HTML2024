@@ -586,6 +586,7 @@ article p {
     flex-shrink: 0;
     border-radius: 50px;
     background: #000;
+    border: none;
 }
 
 .buy-now a {
