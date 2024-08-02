@@ -336,7 +336,7 @@ aside button a {
 section {
     display: flex;
     justify-content: flex-start;
-    }
+}
 
 section > div > pre {
     color: #FFF;
@@ -422,7 +422,7 @@ section > div > pre {
     text-transform: uppercase;
     margin-left: 29px;
     width: 175px;
-    }
+}
 
 .one-of span {
     color: #23263C;
@@ -450,15 +450,17 @@ section > div > pre {
     align-items: center;
     position: relative;
 }
-.picture2 button{
+
+.picture2 button {
     width: 147.461px;
     height: 51px;
     border-radius: 3px;
     border: 2px solid #000;
     background: #1F143B;
     margin-top: 78px;
-    }
-.picture2 a{
+}
+
+.picture2 a {
     color: #52A7C6;
     font-family: Outfit, sans-serif;
     font-size: 40px;
@@ -467,19 +469,21 @@ section > div > pre {
     line-height: normal;
     text-transform: capitalize;
 }
-.flex{
+
+.flex {
     display: flex;
 }
 
 /*--------------------------------------article--------------------------*/
-article{
+article {
     margin-top: 234px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-article p{
+
+article p {
     color: #5BD2BF;
     font-family: Outfit, sans-serif;
     font-size: 30px;
@@ -489,7 +493,8 @@ article p{
     text-transform: uppercase;
     text-align: center;
 }
-.read-what{
+
+.read-what {
     color: #FFF;
     text-align: center;
     font-family: Outfit, sans-serif;
@@ -500,13 +505,15 @@ article p{
     text-transform: capitalize;
     width: 427px;
 }
-.three-blocks{
+
+.three-blocks {
     display: flex;
     justify-content: center;
     gap: 14px;
     margin-top: 147px;
-    }
-.block{
+}
+
+.block {
     width: 345px;
     height: 360px;
     flex-shrink: 0;
@@ -514,7 +521,8 @@ article p{
     background: #24293F;
     position: relative;
 }
-.block h2{
+
+.block h2 {
     color: #FFF;
     text-align: center;
     font-family: Outfit, sans-serif;
@@ -525,7 +533,8 @@ article p{
     text-transform: capitalize;
     margin-top: 83px;
 }
-.block p{
+
+.block p {
     color: #FFF;
     text-align: center;
     font-family: Outfit, sans-serif;
@@ -536,15 +545,17 @@ article p{
     text-transform: capitalize;
     margin-top: 27px;
 }
-.block img{
+
+.block img {
     border-radius: 100%;
     position: absolute;
     right: 100px;
     top: -75px;
     filter: grayscale(100%);
 }
+
 /*----------------------------------buy now---------------------------*/
-.buy-now{
+.buy-now {
     width: 1063px;
     height: 378px;
     flex-shrink: 0;
@@ -556,7 +567,8 @@ article p{
     flex-direction: column;
     margin: 208px 189px 0 188px;
 }
-.buy-now pre{
+
+.buy-now pre {
     color: #FFF;
     text-align: center;
     font-family: Outfit, sans-serif;
@@ -565,16 +577,18 @@ article p{
     font-weight: 700;
     line-height: 60px;
     width: 312px;
-    margin: 24px 375px 39px 376px ;
+    margin: 24px 375px 39px 376px;
 }
-.buy-now button{
+
+.buy-now button {
     width: 344px;
     height: 85px;
     flex-shrink: 0;
     border-radius: 50px;
     background: #000;
 }
-.buy-now a{
+
+.buy-now a {
     color: #FFF;
     text-align: center;
     font-family: Outfit, sans-serif;
@@ -587,42 +601,96 @@ article p{
 
 /*--------------------------footer-----------------------------------------*/
 
-/*footer{*/
-/*    display: flex;*/
-/*    justify-content: space-between;*/
-/*    align-items: flex-start;*/
-/*    !*width: 909px;*!*/
-/*    margin: 262px 191px 0 191px;*/
-/*    gap: 126px;*/
-/*}*/
-/*footer  a{*/
-/*    color: #FFF;*/
-/*    font-family: Outfit, sans-serif;*/
-/*    font-size: 20px;*/
-/*    font-style: normal;*/
-/*    font-weight: 400;*/
-/*    line-height: normal;*/
-/*    text-transform: capitalize;*/
-/*}*/
-/*.big a{*/
-/*    color: #FFF;*/
-/*    font-family: Outfit, sans-serif;*/
-/*    font-size: 25px;*/
-/*    font-style: normal;*/
-/*    font-weight: 700;*/
-/*    line-height: normal;*/
-/*    text-transform: capitalize;*/
-/*}*/
-/*footer ul li{*/
-/*    margin-bottom: 22px;*/
-/*}*/
+footer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /*width: 909px;*/
+    margin: 262px 0 0 191px;
+}
 
-.grid {
-    display: grid;
-    height: 100vh;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-areas:
-                   'title title title title title'
-                    'second second second second second';
+footer a {
+    color: #FFF;
+    font-family: Outfit, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.big a {
+    color: #FFF;
+    font-family: Outfit, sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+footer ul li {
+    margin-bottom: 22px;
+}
+
+.column1, .column2 {
+    margin-right: 126px;
+}
+
+.column3 {
+    margin-right: 143px;
+
+}
+
+.column4 {
+    margin-right: 105px;
+}
+
+.input-email {
+    display: flex;
+    flex-direction: row;
+    width: 253px;
+    height: 60px;
+    border-radius: 50px;
+    background: #3B7C70;
+}
+
+.input-email input, .input-email button {
+    display: block;
+}
+
+.input-email button {
+    width: 100px;
+    height: 58px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #262E48;
+    border: none;
+    margin-top: 1px;
+    color: #FFF;
+    font-family: Outfit, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.input-email input {
+    width: 94px;
+    height: 25px;
+    border: none;
+    margin: 17px 46px 18px 12px;
+    font-family: Outfit, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    background: #3B7C70;
+    opacity: 0.8;
+}
+
+#email::placeholder {
+    color: white;
 }
