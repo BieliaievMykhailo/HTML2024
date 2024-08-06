@@ -5,6 +5,12 @@
     box-sizing: border-box;
 }
 
+.container {
+    width: 1280px;
+    height: 3796px;
+    margin: 0 auto;
+}
+
 /*-----------------------------------header-----------------------------------*/
 header {
     width: 1280px;
@@ -47,6 +53,14 @@ nav > div > ul > li > a {
     line-height: 160%;
     text-decoration: none;
     list-style-type: none;
+}
+
+nav > div > ul > li > a:hover {
+    text-decoration: underline;
+    text-decoration-color: #F1CDB3;
+    text-decoration-style: solid;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 12px;
 }
 
 nav > div > ul {
@@ -271,7 +285,7 @@ main h3 {
     font-size: 35px;
     font-style: normal;
     font-weight: 400;
-    line-height: 130%; /* 45.5px */
+    line-height: 130%;
     letter-spacing: 2.1px;
     width: 308px;
     height: 90px;
